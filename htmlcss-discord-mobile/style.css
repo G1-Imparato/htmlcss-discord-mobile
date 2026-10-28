@@ -6,6 +6,8 @@
 
 
 
+
+
 body {
     display: block;
     width: 512px;
@@ -24,9 +26,17 @@ header img {
 
 .PrimoTitolo {
     width: 100%;
+
     height: 100%;
     color: rgb(255, 255, 255);
+    position: relative
+}
 
+
+.PrimoTitolo .mascotte-png {
+    width: 15%;
+    position: absolute;
+    right: -8px;
 
 }
 
@@ -231,5 +241,13 @@ header img {
     border-radius: 40px;
 
 
+
+}
+
+.terzaSezione .megaphone-png {
+    position: absolute;
+
+    width: 25%;
+    right: -14px;
 
 }
